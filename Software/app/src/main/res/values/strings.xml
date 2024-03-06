@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Event Buddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_a_new_event">Create a new event</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="Confirm_password">Confirm password</string>
+    <string name="ime">Ime</string>
+    <string name="Prezime">Prezime</string>
+    <string name="Email">Email</string>
+    <string name="Korisničko_ime">Korisničko ime</string>
+    <string name="Lozinka">Lozinka</string>
+    <string name="Potvrdi_lozinku">Potvrdi lozinku</string>
+    <string name="registracija">Registracija</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="event_buddy">Event Buddy</string>
+    <string name="Uredi_profil">Uredi profil</string>
+    <string name="Spremi">Spremi</string>
+    <string name="Odustani">Odustani</string>
+    <string name="Unesi_staru_lozinku">Unesi staru lozinku</string>
+    <string name="Nova_lozinka">Nova lozinka</string>
+    <string name="po_etni_ekran">Početni ekran</string>
+    <string name="Detalji_događaja">Detalji događaja</string>
+    <string name="Naziv_događaja">Naziv događaja</string>
+    <string name="Opis">Opis događaja</string>
+    <string name="Mjesto">Mjesto događaja</string>
+    <string name="Vrijeme">Vrijeme događaja</string>
+    <string name="Datum">Datum događaja</string>
+    <string name="Broj_sudionika">Broj sudionika</string>
+    <string name="Prijavi_se">Prijavi se</string>
+    <string name="Odjavi_se">Odjavi se</string>
+    <string name="Pretplati_me">Pretplati me</string>
+    <string name="Sudionici">Sudionici</string>
+    <string name="Natrag">Natrag</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.LoginFragment"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registracija"
+        android:textSize="30sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="115dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/ime"
+        app:boxBackgroundColor="#D0D0D0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/Prezime"
+        app:boxBackgroundColor="#D0D0D0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/prezime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/Korisničko_ime"
+        app:boxBackgroundColor="#D0D0D0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/korime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/Lozinka"
+        app:boxBackgroundColor="#D0D0D0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_lozinka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/Potvrdi_lozinku"
+        app:boxBackgroundColor="#D0D0D0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_lozinka_potvrdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Login_register"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Odustani"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_fragment_login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:layout_toStartOf="@+id/btn_Login_register"
+            android:layout_marginEnd="40dp"/>
+
+    </RelativeLayout>
+</FrameLayout>

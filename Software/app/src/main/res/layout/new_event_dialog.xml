@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+    <EditText
+        android:id="@+id/et_new_event_dialog_eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Naziv..."
+        android:inputType="text"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/et_new_event_dialog_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lokacija..."
+        android:inputType="text"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/et_new_event_dialog_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Datum..."
+        android:inputType="date"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/et_new_event_dialog_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vrijeme..."
+        android:inputType="time"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/et_new_event_dialog_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Opis..."
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:layout_marginBottom="15dp"
+        />
+
+</LinearLayout>

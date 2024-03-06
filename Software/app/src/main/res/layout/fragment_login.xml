@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.LoginFragment"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_buddy"
+        android:textSize="20sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="100dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/username"
+        app:boxBackgroundColor="#D0D0D0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/korisnik_prijava"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/password"
+        app:boxBackgroundColor="#D0D0D0"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/korisnik_lozinka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp">
+        
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_fragment_login_register"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_toLeftOf="@+id/btn_Login"
+            android:layout_marginEnd="40dp"/>
+
+    </RelativeLayout>
+</FrameLayout>
